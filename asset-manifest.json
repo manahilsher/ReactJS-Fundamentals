@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ttp-contact-card/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/ttp-contact-card/static/js/main.908ee0ce.chunk.js",
+    "main.js.map": "/ttp-contact-card/static/js/main.908ee0ce.chunk.js.map",
+    "runtime-main.js": "/ttp-contact-card/static/js/runtime-main.c2f2bc6e.js",
+    "runtime-main.js.map": "/ttp-contact-card/static/js/runtime-main.c2f2bc6e.js.map",
+    "static/js/2.479e689c.chunk.js": "/ttp-contact-card/static/js/2.479e689c.chunk.js",
+    "static/js/2.479e689c.chunk.js.map": "/ttp-contact-card/static/js/2.479e689c.chunk.js.map",
+    "index.html": "/ttp-contact-card/index.html",
+    "precache-manifest.4b115c6c221fe0d5486323f791a76051.js": "/ttp-contact-card/precache-manifest.4b115c6c221fe0d5486323f791a76051.js",
+    "service-worker.js": "/ttp-contact-card/service-worker.js",
+    "static/css/main.27fd15f6.chunk.css.map": "/ttp-contact-card/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.479e689c.chunk.js.LICENSE.txt": "/ttp-contact-card/static/js/2.479e689c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2f2bc6e.js",
+    "static/js/2.479e689c.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.908ee0ce.chunk.js"
+  ]
+}
