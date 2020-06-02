@@ -1,28 +1,45 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class ContactCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
       name: this.props.name,
-      phone: this.props.phone,
+      mobilePhone: this.props.mobilePhone,
+      workPhone: this.props.workPhone,
       email: this.props.email,
     };
   }
 
+  hasWorkPhone = () => {
+    if (this.state.workPhone != null) {
+      return <li className="list-group-item">{this.state.workPhone}</li>;
+    }
+  };
+
   render() {
-    return (
+    const card = (
       <div className="card" style={{ width: "18rem" }}>
         <div className="card-header bg-dark" style={{ color: "white" }}>
           {this.state.name}
         </div>
         <ul className="list-group list-group-flush">
-          <li className="list-group-item">{this.state.phone}</li>
+          <li className="list-group-item">{this.state.mobilePhone}</li>
+          {this.hasWorkPhone()}
           <li className="list-group-item">{this.state.email}</li>
         </ul>
       </div>
     );
+    return card;
   }
 }
+
+ContactCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  mobilePhone: PropTypes.string.isRequired,
+  workPhone: PropTypes.string,
+  email: PropTypes.string.isRequired,
+};
 
 export default ContactCard;
